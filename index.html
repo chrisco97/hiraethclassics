@@ -1,15 +1,79 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="An e-publisher dedicated to bringing you the highest quality ebooks possible of classic stories.">
+    <meta name="keywords" content="kindle, ebook, e-reader, hiraeth, classics, illustrated, blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.menu-button').on('click', function() {
+          if($('.header-right ul').hasClass('menu')){
+            $('.header-right ul').show();
+            $('.header-right ul').removeClass('menu').addClass('close');
+            $('.menu-button').html('<i class="fa fa-remove" aria-hidden="true"></i>')
+          }
+          else {
+            $('.header-right ul').hide();
+            $('.header-right ul').removeClass('close').addClass('menu');
+            $('.menu-button').html('<i class="fa fa-bars" aria-hidden="true"></i>')
+          }
+        });
+      });
+    </script>
     <title>Coming Soon &bull; Hiraeth Classics</title>
   </head>
   <body>
+    <header>
+      <div class="header-container">
+        <div class="header-wrapper">
+          <div class="header-left">
+            <div class="header-logo"></div>
+          </div>
+          <div class="header-right">
+            <nav>
+              <div class="menu-button">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </div>
+              <ul class="menu">
+                <li>
+                  <a href="http://www.facebook.com/HiraethClassics" target="_blank">
+                    facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.twitter.com/HiraethClassics" target="_blank">
+                    twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:contact@hiraethclassics.com">
+                    contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
-      <p>
-        The coming soon page is coming soon!
-      </p>
+      <div class="main-wrapper">
+        <div class="main-header">
+          An e-publisher dedicated to bringing you the highest quality ebooks possible of classic stories is coming soon.
+        </div>
+        <p>
+          Keep checking back.
+        </p>
+      </div>
     </main>
+    <footer>
+      &copy; 2016 Hiraeth Classics
+    </footer>
   </body>
 </html>
