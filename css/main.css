@@ -29,13 +29,12 @@ body {
   display: table;
   width: 100%;
   background: url(../img/bg.jpg) no-repeat center center fixed #f7f7f7;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   color: #171717;
   font-size: 18px;
   font-family: "Lora";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
 }
 
 @media screen and (min-width: 972px) and (max-width: 10000000000px) {
