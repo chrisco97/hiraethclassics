@@ -29,9 +29,8 @@ body {
   color: #171717;
   font-size: 18px;
   font-family: 'Lora';
-
-  behavior: url(../js/display-table.min.htc);
-  dt-display: table;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale');
 }
 
 header {
@@ -65,8 +64,6 @@ header {
 main {
   display: table-row;
   height: 100%;
-
-  dt-display: table-row;
 }
 
 .main-wrapper {
@@ -89,8 +86,6 @@ footer {
   color: #f7f7f7;
   text-align: center;
   text-transform: uppercase;
-
-  dt-display: table-row;
 }
 
 .footer-wrapper {
