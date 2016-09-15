@@ -21,9 +21,9 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
+  display: table;
+  width: 100%;
+  height: 100%;
   background: url(../img/bg.jpg) no-repeat center center fixed #f7f7f7;
   background-size: cover;
   color: #171717;
@@ -62,14 +62,14 @@ header {
 }
 
 main {
-  padding-top: 73px;
-  padding-bottom: 170px;
-
-  flex: 1 0 auto;
+  display: table-row;
+  height: 100%;
 }
 
 .main-wrapper {
   margin: auto;
+  padding-top: 73px;
+  padding-bottom: 170px;
   text-align: center;
 }
 
@@ -79,14 +79,18 @@ main {
   font-family: 'Roboto Light';
 }
 
-.footer-wrapper {
-  padding-top: 30px;
-  padding-bottom: 30px;
+footer {
+  display: table-row;
   width: 100%;
   background: #4089a7;
   color: #f7f7f7;
   text-align: center;
   text-transform: uppercase;
+}
+
+.footer-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 11px;
 }
 
