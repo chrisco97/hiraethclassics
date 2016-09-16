@@ -16,14 +16,11 @@
   url('../font/roboto-light/roboto-light.svg#webfont') format('svg');
 }
 
-html {
+html, body {
   height: 100%;
 }
 
 body {
-  display: table;
-  width: 100%;
-  height: 100%;
   background: url(../img/bg.jpg) no-repeat center center fixed #f7f7f7;
   background-size: cover;
   color: #171717;
@@ -31,6 +28,17 @@ body {
   font-family: 'Lora';
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale')";
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale');
+}
+
+.content-wrapper {
+  margin-bottom: -71px;
+  min-height: 100%;
+}
+
+.content-wrapper:after {
+  display: block;
+  height: 242px;
+  content: "";
 }
 
 header {
@@ -61,15 +69,9 @@ header {
   float: right;
 }
 
-main {
-  display: table-row;
-  height: 100%;
-}
-
 .main-wrapper {
   margin: auto;
   padding-top: 73px;
-  padding-bottom: 170px;
   text-align: center;
 }
 
@@ -81,8 +83,8 @@ main {
 }
 
 footer {
-  display: table-row;
   width: 100%;
+  height: 71px;
   background: #4089a7;
   color: #f7f7f7;
   text-align: center;
