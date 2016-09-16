@@ -33,6 +33,8 @@ body {
 .content-wrapper {
   margin-bottom: -71px;
   min-height: 100%;
+
+  *height: 100%;
 }
 
 .content-wrapper:after {
