@@ -117,7 +117,7 @@ footer {
     margin-left: 20px;
     zoom: 1;
 
-    *display: inline;
+    _display: inline;
   }
   .header-right ul li a {
     color: gray;
@@ -151,7 +151,7 @@ footer {
     margin-left: 20px;
     zoom: 1;
 
-    *display: inline;
+    _display: inline;
   }
   .header-right ul li a {
     color: gray;
@@ -185,7 +185,7 @@ footer {
     margin-left: 20px;
     zoom: 1;
 
-    *display: inline;
+    _display: inline;
   }
   .header-right ul li a {
     color: gray;
