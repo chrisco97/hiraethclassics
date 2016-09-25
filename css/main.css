@@ -74,15 +74,18 @@ header {
 
 .main-wrapper {
   margin: auto;
-  padding-top: 73px;
+  padding-top: 65px;
   text-align: center;
 }
 
 .main-wrapper h1 {
   margin-bottom: 27px;
-  text-transform: uppercase;
   font-weight: normal;
   font-family: 'Roboto Light';
+}
+
+.main-wrapper p {
+  line-height: 30px;
 }
 
 footer {
@@ -120,18 +123,18 @@ footer {
     *display: inline;
   }
   .header-right ul li a {
-    color: gray;
+    color: #171717;
     text-decoration: none;
   }
   .header-right ul li a:hover {
-    color: #171717;
+    color: gray;
   }
   .main-wrapper {
-    width: 650px;
+    width: 700px;
   }
   .main-wrapper h1 {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 60px;
   }
 }
 @media screen and (orientation:landscape) and (min-device-height:1000px) {
@@ -154,18 +157,18 @@ footer {
     *display: inline;
   }
   .header-right ul li a {
-    color: gray;
+    color: #171717;
     text-decoration: none;
   }
   .header-right ul li a:hover {
-    color: #171717;
+    color: gray;
   }
   .main-wrapper {
     width: 70%;
   }
   .main-wrapper h1 {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 60px;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 972px) {
@@ -188,18 +191,18 @@ footer {
     *display: inline;
   }
   .header-right ul li a {
-    color: gray;
+    color: #171717;
     text-decoration: none;
   }
   .header-right ul li a:hover {
-    color: #171717;
+    color: gray;
   }
   .main-wrapper {
     width: 70%;
   }
   .main-wrapper h1 {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 60px;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 601px) {
@@ -231,7 +234,7 @@ footer {
     padding: 20px;
     padding-right: 28px;
     border-top: 1px solid #e0e0e0;
-    color: gray;
+    color: #171717;
     text-align: right;
     text-decoration: none;
   }
@@ -243,6 +246,6 @@ footer {
   }
   .main-wrapper h1 {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 60px;
   }
 }
