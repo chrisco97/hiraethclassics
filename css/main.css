@@ -21,19 +21,19 @@ html, body {
 }
 
 body {
-  background: url(../img/bg.jpg) no-repeat center center fixed #f7f7f7;
-  background-size: cover;
   color: #171717;
   font-size: 18px;
   font-family: 'Lora';
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale');
 }
 
 .content-wrapper {
   margin-bottom: -71px;
   min-height: 100%;
   height: auto!important;
+  background: url(../img/bg.jpg) no-repeat center center fixed #f7f7f7;
+  background-size: cover;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg.jpg', sizingMethod='scale');
 
   _height: 100%;
 }
