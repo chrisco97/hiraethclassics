@@ -106,7 +106,9 @@ footer {
 .footer-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
+  letter-spacing: 3px;
   font-size: 11px;
+  font-family: "Roboto Light";
 }
 
 @media screen and (min-width: 972px) and (max-width: 10000000000px) {
