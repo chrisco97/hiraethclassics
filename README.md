@@ -1,2 +1,2 @@
 # hiraethclassics
-An e-publisher dedicated to bringing you the highest quality ebooks possible of classic stories.
+Hiraeth Classics is an e-publisher dedicated to bringing you remarkable ebook renditions of classic stories.
