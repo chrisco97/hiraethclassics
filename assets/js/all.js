@@ -6,7 +6,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 
 // menu code
 
-$(document).ready(function(){
+$(document).ready(function() {
   $('.menu-button').on('click', function() {
     if($('.header-right ul').hasClass('menu')){
       $('.header-right ul').show();
