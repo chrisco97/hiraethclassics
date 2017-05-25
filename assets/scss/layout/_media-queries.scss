@@ -1,0 +1,65 @@
+@media (max-width: 457px) {
+  header {
+    .logo {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 777px) {
+  body.open {
+    overflow: hidden;
+  }
+
+  header {
+    .menu-button {
+      display: block;
+    }
+
+    .menu-overlay {
+      width: 100%;
+    }
+
+    nav {
+      margin-top: 0px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 70%;
+      overflow: auto;
+      background: $accent;
+      transition: transform .2s;
+      transform: translateX(100%);
+
+      &.open {
+        transform: translateX(0%);
+      }
+
+      ul {
+        margin-top: 53px;
+
+        li {
+          margin-left: 0px;
+          display: block;
+
+          a {
+            padding: 25px 0px 25px 25px;
+            display: block;
+            color: $background;
+
+            &:hover {
+              color: darken($background, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  div.wrap {
+    width: 90%;
+  }
+}
