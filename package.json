@@ -2,7 +2,7 @@
   "name": "hiraethclassics.com",
   "version": "1.0.0",
   "description": "Hiraeth Classics is an e-publisher dedicated to bringing you beautifully formatted ebooks of classic stories.",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
