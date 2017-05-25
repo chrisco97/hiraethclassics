@@ -47,7 +47,6 @@ body {
     -o-background-size: cover;
        background-size: cover;
 }
-
 .content-wrapper:after {
   display: block;
   height: 242px;
@@ -179,15 +178,13 @@ main {
   padding-top: 65px;
   text-align: center;
 }
-
-h1 {
+main h1 {
   margin-top: -12px;
   margin-bottom: 27px; 
   font-weight: normal;
   line-height: 60px;
 }
-
-p {
+main p {
   font-family: "Lora", serif;
   line-height: 30px;
 }

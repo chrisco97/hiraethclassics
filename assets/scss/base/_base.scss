@@ -15,10 +15,10 @@ body {
   height: auto!important;
   background: url(../img/bg.jpg) no-repeat center center fixed $background;
   background-size: cover;
-}
 
-.content-wrapper:after {
-  display: block;
-  height: 242px;
-  content: "";
+  &:after {
+    display: block;
+    height: 242px;
+    content: "";
+  }
 }
