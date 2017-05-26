@@ -9,7 +9,7 @@
 @media (max-width: 777px) {
   body.open {
     overflow: hidden;
-    position: relative;
+    position: fixed;
   }
 
   header {

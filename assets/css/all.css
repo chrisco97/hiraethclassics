@@ -208,7 +208,7 @@ footer {
 
 @media (max-width: 777px) {
   body.open {
-    position: relative; 
+    position: fixed; 
     overflow: hidden;
   }
   header .menu-button {
