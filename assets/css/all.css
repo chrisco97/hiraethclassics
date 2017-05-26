@@ -207,8 +207,10 @@ footer {
 }
 
 @media (max-width: 777px) {
+  html.open {
+    overflow: hidden;
+  }
   body.open {
-    position: fixed; 
     overflow: hidden;
   }
   header .menu-button {

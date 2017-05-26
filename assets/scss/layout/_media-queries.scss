@@ -7,9 +7,12 @@
 }
 
 @media (max-width: 777px) {
+  html.open {
+    overflow: hidden;
+  }
+  
   body.open {
     overflow: hidden;
-    position: fixed;
   }
 
   header {
