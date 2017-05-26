@@ -38,12 +38,11 @@ header {
         display: block;
         height: 2px;
         width: 100%;
-        background: $foreground;
+        background: rgba($foreground, 1.0);
         position: absolute;
-        transition: .5s;
+        transition: .3s;
         transform: rotate(0deg);
         transform-origin: left center;
-        opacity: 1;
         content: "";
 
         &.one {
@@ -72,7 +71,7 @@ header {
 
           &.two {
             width: 0%;
-            opacity: 0;
+            background: rgba($background, 0.0);
           }
 
           &.three {
@@ -90,8 +89,8 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
     background: rgba(lighten($foreground, 15%), 0.6);
+    display: none;
   }
 
   nav {
